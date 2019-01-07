@@ -2728,22 +2728,22 @@ only screen and (min-device-pixel-ratio: 1.5) {
     z-index: -1
 }
 
-body {
+body.all {
     font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     line-height: 1.2
 }
 
-h1 {
+h1.all {
     font-size: 1.5625rem
 }
 
-h2 {
+h2.all {
     font-size: 1.25rem
 }
 
-h3,
-h4 {
+h3.all,
+h4.all {
     font-size: 0.9375rem
 }
 
