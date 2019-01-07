@@ -1,21 +1,17 @@
-body.my_stuff { margin: 60px auto; width: 70%; }
+body.main { margin: 60px auto; width: 70%; }
 
-a.my_stuff { text-decoration: none; color: #999; }
-a.my_stuff:hover { text-decoration: underline; }
+a.main { text-decoration: none; color: #999; }
+a.main:hover { text-decoration: underline; }
 
-p.my_stuff, ul.my_stuff { font-size: 1.5em; line-height: 1.4em; color: #333; }
+p.main, ul.main { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
-h1.my_stuff, h2.my_stuff, h3.my_stuff, h4.my_stuff { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1.my_stuff { font-size: 3em;  }
-h2.my_stuff { font-size: 2.7em; }
-h3.my_stuff { font-size: 2.3em; }
-h4.my_stuff { font-size: 1.9em; }
+h1.main, h2.main, h3.main, h4.main { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1.main { font-size: 3em;  }
+h2.main { font-size: 2.7em; }
+h3.main { font-size: 2.3em; }
+h4.main { font-size: 1.9em; }
 
-nav.my_stuff ul, footer.my_stuff ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
-nav.my_stuff ul li, footer.my_stuff ul li { display: inline; margin-right: 20px; }
+nav.main ul, footer.main ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav.main ul li, footer.main ul li { display: inline; margin-right: 20px; }
 
-footer.my_stuff { border-top: 1px solid #d5d5d5; font-size: .8em; }
-
-h1.remove-all-styles, p.remove-all-styles {
-  all: revert;
-}
+footer.main { border-top: 1px solid #d5d5d5; font-size: .8em; }

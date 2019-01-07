@@ -4664,9 +4664,9 @@ fieldset[disabled] .form-control {
     display: flex
 }
 
-h1,
-h2,
-h3 {
+h1.all,
+h2.all,
+h3.all {
     color: #00b2de
 }
 
