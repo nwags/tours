@@ -1,0 +1,84 @@
+.bloqueCategorias {
+    margin: 1rem 0;
+    border-bottom: 1px solid #d7d7d7
+}
+
+.bloqueCategorias a {
+    color: #373a3c;
+    text-decoration: none
+}
+
+.bloqueCategorias:last-child {
+    border-bottom: none
+}
+
+.bloqueCategorias h3 {
+    margin-top: 0.4rem
+}
+
+.bloqueCategorias h2 {
+    color: #ff9600
+}
+
+.bloqueCategorias .col-xs-4 {
+    padding-right: 0rem;
+    margin-bottom: 0.5rem;
+    width: 32.6%
+}
+
+.textoCarosel {
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+    color: #ffffff
+}
+
+.botonReservaCarosel {
+    background-color: #fea71c;
+    border: 1px solid #dd8615;
+    width: auto
+}
+
+#contenido .homeContenido a {
+    color: #ff9600;
+    text-decoration: none
+}
+
+#contenido .homeContenido h2,
+#contenido .homeContenido h3,
+#contenido .homeContenido h4 {
+    color: #ff9600
+}
+
+#contenido #contenidoFaq {
+    text-align: justify
+}
+
+#contenido #contenidoFaq a {
+    color: #ff9600;
+    text-decoration: none
+}
+
+#contenido #contenidoFaq h2,
+#contenido #contenidoFaq h3,
+#contenido #contenidoFaq h4 {
+    color: #ff9600
+}
+
+@media (max-width: 34rem) {
+    .bloqueCategorias span {
+        font-size: 0.75rem
+    }
+}
+
+@media (min-width: 48rem) {
+    .bloqueCategorias h2 {
+        padding-left: 0.9573rem
+    }
+}
+
+@media (min-width: 62em) {
+    .bloqueCategorias h2 {
+        padding-left: 0
+    }
+}
