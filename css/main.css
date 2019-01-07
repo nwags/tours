@@ -15,3 +15,7 @@ nav.my_stuff ul, footer.my_stuff ul { font-size: 1em; font-family: 'Helvetica', 
 nav.my_stuff ul li, footer.my_stuff ul li { display: inline; margin-right: 20px; }
 
 footer.my_stuff { border-top: 1px solid #d5d5d5; font-size: .8em; }
+
+.remove-all-styles {
+  all: revert;
+}
