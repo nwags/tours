@@ -14,21 +14,38 @@ h4.main { font-size: 1.9em; }
 nav.main ul, footer.main ul, .main-footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav.main ul li, footer.main ul li, .main-footer ul li { display: inline; margin-right: 20px; }
 
-.magi { height: calc(100% - 7em); }
 
-.blurb { height: 50%; }
+footer.main { border-top: 1px solid #d5d5d5; position: absolute; font-size: .8em; height: 7em; width: 70%;}
 
-footer.main { border-top: 1px solid #d5d5d5; position: absolute; font-size: .8em; height: 7em;}
+.frame-container {
+  left:0;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
 
-iframe.main {display: inline; position: absolute; width: 100%; height: 50%; border: none;}
+iframe.main {
+  display: inline;
+  padding: 20px;
+  width: 100%;
+  height: 800px;
+  border: none;
+  overflow-x: scroll;
+  -ms-transform: scale(1.75);
+  -moz-transform: scale(1.75);
+  -o-transform: scale(1.75);
+  -webkit-transform: scale(1.75);
+  transform: scale(1.75);
+
+  -ms-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
 
 .main-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   font-size: .8em;
   border-top: 1px solid #d5d5d5;
-  background-color: #efefef;
   height: 7em;
+  width: 70%;
 }
