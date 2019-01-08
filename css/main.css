@@ -16,7 +16,7 @@ nav.main ul li, footer.main ul li { display: inline; margin-right: 20px; }
 
 .magi { height: calc(100% - 7em); }
 
-footer.main { border-top: 1px solid #d5d5d5; font-size: .8em; height: 7em;}
+footer.main { border-top: 1px solid #d5d5d5; position: absolute; font-size: .8em; height: 7em;}
 
 iframe.main {display: inline; position: absolute; width: 100%; border: none;}
 
