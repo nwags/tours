@@ -11,10 +11,12 @@ h2.main { font-size: 2.7em; }
 h3.main { font-size: 2.3em; }
 h4.main { font-size: 1.9em; }
 
-nav.main ul, footer.main ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
-nav.main ul li, footer.main ul li { display: inline; margin-right: 20px; }
+nav.main ul, footer.main ul, .main-footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav.main ul li, footer.main ul li, .main-footer ul li { display: inline; margin-right: 20px; }
 
 .magi { height: calc(100% - 7em); }
+
+.blurb { height: 100%; }
 
 footer.main { border-top: 1px solid #d5d5d5; position: absolute; font-size: .8em; height: 7em;}
 
