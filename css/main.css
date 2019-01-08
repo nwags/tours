@@ -14,9 +14,9 @@ h4.main { font-size: 1.9em; }
 nav.main ul, footer.main ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav.main ul li, footer.main ul li { display: inline; margin-right: 20px; }
 
-footer.main { border-top: 1px solid #d5d5d5; font-size: .8em; }
+footer.main { border-top: 1px solid #d5d5d5; font-size: .8em; height: 7em;}
 
-iframe.main {display: inline; position: absolute; width: 100%; height: 98%; border: none;}
+iframe.main {display: inline; position: absolute; width: 100%; height: calc(100% - 7em); border: none;}
 
 .main-footer {
   position: absolute;
