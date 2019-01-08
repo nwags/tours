@@ -16,7 +16,7 @@ nav.main ul li, footer.main ul li, .main-footer ul li { display: inline; margin-
 
 .magi { height: calc(100% - 7em); }
 
-.blurb { height: 100%; }
+.blurb { height: 50%; }
 
 footer.main { border-top: 1px solid #d5d5d5; position: absolute; font-size: .8em; height: 7em;}
 
