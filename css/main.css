@@ -30,11 +30,11 @@ iframe.main {
   height: 800px;
   border: none;
   overflow-x: scroll;
-  -ms-transform: scale(1.75);
-  -moz-transform: scale(1.75);
-  -o-transform: scale(1.75);
-  -webkit-transform: scale(1.75);
-  transform: scale(1.75);
+  -ms-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 
   -ms-transform-origin: 50% 0;
   -moz-transform-origin: 50% 0;
